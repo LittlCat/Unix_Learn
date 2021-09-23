@@ -10,7 +10,7 @@
           a后边必须存在参数，且格式必须为 ./a.out -a xin（关键是空格）
           c后面的参数可选， 若存在参数必须为 ./a.out -cxin (无空格)
           采用optarg全局变量可以获取到 参数后面的内容
-      opterr关闭显示错误信息
+          opterr关闭显示错误信息
 */
 
 int main(int argc, char *argv[])
